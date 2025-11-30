@@ -1,0 +1,33 @@
+body {
+    background: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#time {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.buttons button {
+    padding: 12px 25px;
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.2s ease;
+}
+
+#start { background: #2ecc71; }
+#stop  { background: #e74c3c; }
+#reset { background: #3498db; }
+
+button:hover {
+    opacity: .8;
+    transform: scale(1.05);
+}
