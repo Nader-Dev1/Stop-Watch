@@ -3,7 +3,7 @@ body {
     color: #fff;
     font-family: Arial, sans-serif;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 #time {
@@ -21,13 +21,31 @@ body {
     cursor: pointer;
     border-radius: 6px;
     transition: 0.2s ease;
+    color: white;
 }
 
 #start { background: #2ecc71; }
 #stop  { background: #e74c3c; }
 #reset { background: #3498db; }
+#lab   { background: #f1c40f; }
 
 button:hover {
     opacity: .8;
     transform: scale(1.05);
+}
+
+#labs {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#labs li {
+    background: #222;
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    border-radius: 4px;
 }
